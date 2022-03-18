@@ -28,8 +28,11 @@ function Page() {
         <p>
         {t("welcome", "lol")}
         </p>
-        <div>{t('new.key', 'cette clée est nouvelle mais nexiste pas encore sur Locize')}</div>
-        <p>{t('lolnewkey', 'Attention la magie, cette clée va être traduite automatiquement')}</p>
+        <p>{t('lol', 'La clée est t-elle ajoutée ou pas?')}</p>
+        <p>{t('ours.bleu', 'l ours est il bleu?')}</p>
+        <a href='https://images.app.goo.gl/CcAFhYp9BN9VZ1ok7'>{t('ours.lien', 'Cliquez ici et regardez le ours')}</a>
+        <h4>{t('ours.gris', 'Toutefois la plupart des ours sont gris')}</h4>
+        <h4>{t('safa.test', 'Démo pour Safa')}</h4>
       </header>
     </div>
   );

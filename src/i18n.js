@@ -35,7 +35,7 @@ i18n
  .init({
   debug: true,
   fallbackLng: 'fr',
-  saveMissing: !isProduction,
+  saveMissing: true,
   backend: locizeOptions,
   locizeLastUsed: locizeOptions,
   react: {
